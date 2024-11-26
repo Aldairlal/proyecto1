@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1><img class="imagen-debajo-titulo" src="https://i.pinimg.com/736x/0e/fe/0a/0efe0a40f3521ecc04fa5ff41192cda5.jpg" alt="Imagen debajo del título">
+        <a href="#contacto">
+            <img class="carrito" src="https://i.pinimg.com/736x/31/7f/53/317f536e81e5627b23be7e6aabc3c7cc.jpg" alt="Carrito">
+        </a>
+    </h1>
+
+    <!-- Imagen debajo del título con tamaño original -->
+    <img class="imagen-debajo-titulo-secundaria" src="https://i.pinimg.com/736x/ac/d6/06/acd60685bdd30a4107568dea4a3bf964.jpg" alt="Image src="https://i.pinimg.com/736x/ac/d6/06/acd60685bdd30a4107568dea4a3bf964.jpg" alt="Imagen debajo del título">
+
+    <!-- Categoría Femenino -->
+    <h2>Femenino</h2>
+    <div class="categoria">
+        <div class="producto">
+            <img src="https://img.kwcdn.com/product/fancy/be03c8d3-ab1a-4bdd-a3cf-1e4454413246.jpg?imageView2/2/w/800/q/70/format/webp" width="200" height="200">
+            <h3>Vestido de Verano</h3>
+            <p>s/69.99</p>
+            <details>
+                <summary>Ver descripción</summary>
+                <p>Un hermoso vestido de verano, perfecto para cualquier ocasión. Talla S, M, L.</p>
+            </details>
+        </div>
+
+        <div class="producto">
+            <img src="https://img.kwcdn.com/product/fancy/6bfa2f0d-5c97-4b1b-a139-ad4c0d88305c.jpg?imageView2/2/w/800/q/70/format/webp" width="200" height="200">
+            <h3>Blusa Elegante</h3>
+            <p>s/59.99</p>
+            <details>
+                <summary>Ver descripción</summary>
+                <p>Blusa elegante de algodón, ideal para salir o ir a trabajar. Talla S, M, L.</p>
+            </details>
+        </div>
+
+        <div class="producto">
+            <img src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/6654d4f0acb0a4c8c5122f9f408f96c3.jpg?imageView2/2/w/800/q/70/format/webp" width="200" height="200">
+            <h3>Pantalón de Jeans</h3>
+            <p>s/79.99</p>
+            <details>
+                <summary>Ver descripción</summary>
+                <p>Pantalón de jeans ajustado, muy cómodo para cualquier día. Talla 28, 30, 32.</p>
+            </details>
+        </div>
+    </div>
+
+    <div class="envio-gratis">
+        ¡Envío gratis a todo el Perú!
+    </div>
+
+    <!-- Categoría Masculino -->
+    <h2>Masculino</h2>
+    <div class="categoria">
+        <div class="producto">
+            <img src="https://media.gq.com.mx/photos/628bf30b500ac81936c485c6/1:1/w_2000,h_2000,c_limit/camisa-para-hombre-diferencia-entre-formal-y-casual.jpg" width="200" height="200">
+            <h3>Camisa Casual</h3>
+            <p>s/69.99</p>
+            <details>
+                <summary>Ver descripción</summary>
+                <p>Camisa de manga corta, ideal para el verano. Talla M, L, XL.</p>
+            </details>
+        </div>
+
+        <div class="producto">
+            <img src="https://oechsle.vteximg.com.br/arquivos/ids/10662649-1000-1000/1832011.jpg?v=637964716394030000" width="200" height="200">
+            <h3>Pantalón de Chino</h3>
+            <p>s/79.99</p>
+            <details>
+                <summary>Ver descripción</summary>
+                <p>Pantalón de chino cómodo y elegante. Talla 30, 32, 34.</p>
+            </details>
+        </div>
+
+        <div class="producto">
+            <img src="https://m.media-amazon.com/images/I/91JFZBDAZxL._AC_SL1500_.jpg" width="200" height="200">
+            <h3>Chaqueta de Cuero</h3>
+            <p>s/149.99</p>
+            <details>
+                <summary>Ver descripción</summary>
+                <p>Chaqueta de cuero genuino, perfecta para los días fríos. Talla M, L, XL.</p>
+            </details>
+        </div>
+    </div>
+
+    <!-- Accesorios -->
+    <h2>Accesorios</h2>
+    <div class="producto-accesorios">
+        <img src="https://cdn.shopify.com/s/files/1/0583/6718/0964/files/modelo_con_joyas_con_perlas_1024x1024.jpg?v=1687290990" width="200" height="200">
+        <div class="info">
+            <h3>Collares Elegantes</h3>
+            <p>s/29.99</p>
+        </div>
+    </div>
+
+    <div class="cuadro-adicional">
+        <p>¡Ofertas especiales en accesorios para este mes!</p>
+    </div>
+
+    <!-- Formulario de contacto -->
+    <div class="contacto" id="contacto">
+        <h2>Contáctanos</h2>
+        <form class="formulario-contacto" action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo electrónico" required>
+
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+
+            <button type="submit" class="boton-enviar">Enviar mensaje</button>
+        </form>
+    </div>
+
+</body>
+</html>
